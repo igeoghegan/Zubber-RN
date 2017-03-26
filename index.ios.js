@@ -11,13 +11,15 @@ import {
   Text,
   View
 } from 'react-native';
+import codePush from "react-native-code-push";
 
+@codePush
 export default class Zubber extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native! Please make yourself at home.
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
